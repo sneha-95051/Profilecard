@@ -1,0 +1,111 @@
+.body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(135deg,#7aa7ff,#c49fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/*.card{
+    background-color: cornflowerblue;
+    border-bottom: 5px solid blue;
+    padding: 50px;
+    display: flex; /*div all parents(applied flex)
+    justify-content: space-around;
+    width: 600px;
+    /*margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+}
+*/
+
+.card{
+    background-color: cornflowerblue;
+    color: #333;
+    border-bottom: 8px solid #5b6cff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 650px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 20px 35px rgba(0,0,0,0.3);
+}
+
+.animegirl{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid rgb(24, 5, 75);
+
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-10px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.elements{
+    text-align: left;
+    margin-left: 30px;
+}
+
+.elements h2{
+    margin-bottom: 10px;
+}
+
+.elements p{
+    margin: 8px 0;
+}
+
+.card{
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/*
+.image{
+    margin-top: 10px;
+    width: 200px;
+}
+
+.elements{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*.border-brown{
+    border: 2px dotted brown;
+}  utility*/
