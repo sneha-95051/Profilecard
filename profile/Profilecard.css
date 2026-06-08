@@ -11,7 +11,7 @@
     background-color: cornflowerblue;
     border-bottom: 5px solid blue;
     padding: 50px;
-    display: flex; /*div all parents(applied flex)
+    display: flex; /*div all Children(applied flex)
     justify-content: space-around;
     width: 600px;
     /*margin-left: auto;
